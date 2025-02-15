@@ -1,19 +1,132 @@
 {% extends './base.html' %}
 {%block title%} Data analyst {%endblock%}
 {%block body%}
-<div class="main-container">
-  
-    <div class="full-width image-container" style="background-color:transparent; margin-right: 0%; margin-bottom: 20px;">
-      <h4 style="text-align: center; color: white;">Hola, yo soy José Arturo Olivares Gallegos</h4>
+<div class="main-container" style="margin-top: 5%;">
+  <div class="custom-card-data-card card-container-left" >
+    <div class="custom-card-data-img" style="margin-top: 5%;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-globe-americas" viewBox="0 0 16 16">
+        <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0M2.04 4.326c.325 1.329 2.532 2.54 3.717 3.19.48.263.793.434.743.484q-.121.12-.242.234c-.416.396-.787.749-.758 1.266.035.634.618.824 1.214 1.017.577.188 1.168.38 1.286.983.082.417-.075.988-.22 1.52-.215.782-.406 1.48.22 1.48 1.5-.5 3.798-3.186 4-5 .138-1.243-2-2-3.5-2.5-.478-.16-.755.081-.99.284-.172.15-.322.279-.51.216-.445-.148-2.5-2-1.5-2.5.78-.39.952-.171 1.227.182.078.099.163.208.273.318.609.304.662-.132.723-.633.039-.322.081-.671.277-.867.434-.434 1.265-.791 2.028-1.12.712-.306 1.365-.587 1.579-.88A7 7 0 1 1 2.04 4.327Z"/>
+      </svg>
     </div>
+    <span>DENUE DASHBOARD</span>
+    <p class="custom-card-data-info">
+      Además de la web creada en streamlit se creo un dashboard con información del DENUE, para la toma de decisiones de donde adquirir un nuevo terreno para la expansión de la empresa y ayudó a la realñización de un estudio de mercado
+    </p>
   
-    <div class="card-container-right">
-      <div class="card custom-card mb-3" style="max-width: 18rem; opacity: 0.7; background-color: rgb(150, 30, 29);">
-        <div class="card-header" style="text-align: center;">Project manager</div>
-        <div class="card-body">
-          <p class="card-text" style="text-align:justify;">Como project manager, realicé varios proyectos para la empresa que ayudaron a estandarizar varios procesos, como el proceso de picking, recepción de mercancía, rastreabilidad de choferes, ubicaciones en el almacén y la creación de un kiosko en una empresa de abarrotes al mayoreo.</p>
-        </div>
-      </div>
+    <button style="margin-bottom: 3%;" onclick="window.open('https://dashboardmapa-unqjnmbyheredvrfxz8spx.streamlit.app/', '_blank');">Mas info</button>
+    
+  </div>
+
+  <div class="custom-card-data-card card-container-left" >
+    <div class="custom-card-data-img" style="margin-top: 5%;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-phone" viewBox="0 0 16 16">
+        <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+        <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
+      </svg>
     </div>
+    <span>Usabilidad app choferes</span>
+    <p class="custom-card-data-info" style="margin-bottom: 20%;">
+      Este dashboard fue realizado para el seguimiento del uso de la aplicación de monitoreo de los choferes
+    </p>
+    <div style="text-align: center;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-bar-chart-fill" viewBox="0 0 16 16">
+        <path d="M1 11a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1zm5-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1z"/>
+      </svg>
+      <p style="margin-top: 4px; font-size: 12px; color: white;">Diseñado en Power BI</p>
+    </div>
+    
+  </div>
+  <div class="custom-card-data-card card-container-right">
+    <div class="custom-card-data-img" style="margin-top: 5%;">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="black" class="bi bi-bag-fill" viewBox="0 0 16 16">
+        <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4z"/>
+      </svg>
+    </div>
+    <span> Ventas </span>
+    <p class="custom-card-data-info" style="margin-bottom: 20%;">
+      Desarrollé un dashboard para el seguimiento de ventas de un kiosko, además del seguimiento de una encuesta del mismo, esto ayudo a mejorar la toma de decisiones
+    </p>
+    <div style="text-align: center;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-bar-chart-fill" viewBox="0 0 16 16">
+        <path d="M1 11a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1zm5-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1z"/>
+      </svg>
+      <p style="margin-top: 4px; font-size: 12px; color: white;">Diseñado en Power BI</p>
+    </div>
+    
+    
+  </div>
+  <div class="custom-card-data-card card-container-right">
+    <div class="custom-card-data-img" style="margin-top: 5%;">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="black" class="bi bi-box-seam-fill" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M15.528 2.973a.75.75 0 0 1 .472.696v8.662a.75.75 0 0 1-.472.696l-7.25 2.9a.75.75 0 0 1-.557 0l-7.25-2.9A.75.75 0 0 1 0 12.331V3.669a.75.75 0 0 1 .471-.696L7.443.184l.01-.003.268-.108a.75.75 0 0 1 .558 0l.269.108.01.003zM10.404 2 4.25 4.461 1.846 3.5 1 3.839v.4l6.5 2.6v7.922l.5.2.5-.2V6.84l6.5-2.6v-.4l-.846-.339L8 5.961 5.596 5l6.154-2.461z"/>
+      </svg>
+    </div>
+    <span>Dashboard ubicaciones</span>
+    <p class="custom-card-data-info" style="margin-bottom: 20%;">
+    Desarrollé un dashboard para el seguimiento de ubicacionbes en el almacén y de esta manera poder saber cuantos productos se encuentran en su posición 
+    </p>
+    <div style="text-align: center;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="white" class="bi bi-bar-chart-fill" viewBox="0 0 16 16">
+        <path d="M1 11a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1zm5-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1z"/>
+      </svg>
+      <p style="margin-top: 4px; font-size: 12px; color: white;">Diseñado en Power BI</p>
+    </div>
+    
+    
+  </div>
+</div>
+<div class="main-container" style="margin-top: 5%;">
+  <div class="custom-card-data-card card-container-left" >
+    <div class="custom-card-data-img-basketball " style="margin-top: 5%;">
+    </div>
+    <span>Dashboard basketball</span>
+    <p class="custom-card-data-info" style="margin-bottom: 50%;">
+      Realicé un dashboard para la estadistica de jugadores de la NBA
+    </p>
+    <button style="margin-bottom: 3%;" onclick="window.open('https://basketballdashboard-lh3bd5amv4nrrc2ahme4tl.streamlit.app/', '_blank');">Mas info</button>
+    
+  </div>
+
+  <div class="custom-card-data-card card-container-left" >
+    <div class="custom-card-data-img" style="margin-top: 5%;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-currency-bitcoin" viewBox="0 0 16 16">
+        <path d="M5.5 13v1.25c0 .138.112.25.25.25h1a.25.25 0 0 0 .25-.25V13h.5v1.25c0 .138.112.25.25.25h1a.25.25 0 0 0 .25-.25V13h.084c1.992 0 3.416-1.033 3.416-2.82 0-1.502-1.007-2.323-2.186-2.44v-.088c.97-.242 1.683-.974 1.683-2.19C11.997 3.93 10.847 3 9.092 3H9V1.75a.25.25 0 0 0-.25-.25h-1a.25.25 0 0 0-.25.25V3h-.573V1.75a.25.25 0 0 0-.25-.25H5.75a.25.25 0 0 0-.25.25V3l-1.998.011a.25.25 0 0 0-.25.25v.989c0 .137.11.25.248.25l.755-.005a.75.75 0 0 1 .745.75v5.505a.75.75 0 0 1-.75.75l-.748.011a.25.25 0 0 0-.25.25v1c0 .138.112.25.25.25zm1.427-8.513h1.719c.906 0 1.438.498 1.438 1.312 0 .871-.575 1.362-1.877 1.362h-1.28zm0 4.051h1.84c1.137 0 1.756.58 1.756 1.524 0 .953-.626 1.45-2.158 1.45H6.927z"/>
+      </svg>
+    </div>
+    <span>Cripto price</span>
+    <p class="custom-card-data-info" style="margin-bottom: 50%;">
+      Desarrolle un tablero para el precio de las criptomonedas, en el cual se utiliza una API para poder llamar los diferentes precios
+    </p>
+    <button style="margin-bottom: 3%;" onclick="window.open('https://cryptoprice-sngnujapkfynojckjomf8a.streamlit.app/', '_blank');">Mas info</button>
+    
+  </div>
+  <div class="custom-card-data-card card-container-left" >
+    <div class="custom-card-data-img" style="margin-top: 5%;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-flower3" viewBox="0 0 16 16">
+        <path d="M11.424 8c.437-.052.811-.136 1.04-.268a2 2 0 0 0-2-3.464c-.229.132-.489.414-.752.767C9.886 4.63 10 4.264 10 4a2 2 0 1 0-4 0c0 .264.114.63.288 1.035-.263-.353-.523-.635-.752-.767a2 2 0 0 0-2 3.464c.229.132.603.216 1.04.268-.437.052-.811.136-1.04.268a2 2 0 1 0 2 3.464c.229-.132.489-.414.752-.767C6.114 11.37 6 11.736 6 12a2 2 0 1 0 4 0c0-.264-.114-.63-.288-1.035.263.353.523.635.752.767a2 2 0 1 0 2-3.464c-.229-.132-.603-.216-1.04-.268M9 4a2 2 0 0 1-.045.205q-.059.2-.183.484a13 13 0 0 1-.637 1.223L8 6.142l-.135-.23a13 13 0 0 1-.637-1.223 4 4 0 0 1-.183-.484A2 2 0 0 1 7 4a1 1 0 1 1 2 0M3.67 5.5a1 1 0 0 1 1.366-.366 2 2 0 0 1 .156.142q.142.15.326.4c.245.333.502.747.742 1.163l.13.232-.265.002a13 13 0 0 1-1.379-.06 4 4 0 0 1-.51-.083 2 2 0 0 1-.2-.064A1 1 0 0 1 3.67 5.5m1.366 5.366a1 1 0 0 1-1-1.732l.047-.02q.055-.02.153-.044.202-.048.51-.083a13 13 0 0 1 1.379-.06q.135 0 .266.002l-.131.232c-.24.416-.497.83-.742 1.163a4 4 0 0 1-.327.4 2 2 0 0 1-.155.142M9 12a1 1 0 0 1-2 0 2 2 0 0 1 .045-.206q.058-.198.183-.483c.166-.378.396-.808.637-1.223L8 9.858l.135.23c.241.415.47.845.637 1.223q.124.285.183.484A1.3 1.3 0 0 1 9 12m3.33-6.5a1 1 0 0 1-.366 1.366 2 2 0 0 1-.2.064q-.202.048-.51.083c-.412.045-.898.061-1.379.06q-.135 0-.266-.002l.131-.232c.24-.416.497-.83.742-1.163a4 4 0 0 1 .327-.4q.07-.074.114-.11l.041-.032a1 1 0 0 1 1.366.366m-1.366 5.366a2 2 0 0 1-.155-.141 4 4 0 0 1-.327-.4A13 13 0 0 1 9.74 9.16l-.13-.232.265-.002c.48-.001.967.015 1.379.06q.308.035.51.083.098.024.153.044l.048.02a1 1 0 1 1-1 1.732zM8 9a1 1 0 1 1 0-2 1 1 0 0 1 0 2"/>
+      </svg>
+    </div>
+    <span>Predicción tipo Iris ML</span>
+    <p class="custom-card-data-info" style="margin-bottom: 50%;">
+      Este pequeño dashboard predice el tipo de flor iris dependiendo los diferentes parametros dados
+    </p>
+    <button style="margin-bottom: 3%;" onclick="window.open('https://classificationiris-uw9mftemfhwsfwgdaugac3.streamlit.app/', '_blank');">Mas info</button>
+    
+  </div>
+
+</div>
+<div class="main-container" style="margin-top: 5%;">
+  <div class="custom-card-data-card card-container-left" >
+    <div class="custom-card-data-img" style="margin-top: 5%;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="black" class="bi bi-github" viewBox="0 0 16 16">
+        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+      </svg>
+    </div>
+    <span>Repositorio Github</span>
+    <p class="custom-card-data-info">
+      Observa más trabajos
+    </p>
+    <button style="margin-bottom: 3%;" onclick="window.open('https://github.com/ArturoOliGal', '_blank');">Mas info</button>
+  </div>
   </div>
 {%endblock%}
